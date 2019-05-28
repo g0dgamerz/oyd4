@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title> OYD js game </title>
+		<style>
+			body {
+				background: url('1.jpg');
+				font-family: arial;
+				color: #fff;
+				text-align: center;
+			}
+			p {
+				padding: 1px;
+				color: black;
+				text-transform: bold;
+				font-size: 20;
+				font-weight: bold;
+
+			}
+			canvas {
+				padding-left: 0;
+				padding-right: 0;
+				margin: 0 auto;
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+			<p id="demo"></p>
+			<script>
+
+  var person = prompt("Please enter your name", "");
+  if (person != null) {
+    document.getElementById("demo").innerHTML =
+    "Hello " + person + "! How are you today?" + "touch on game screen use your arrow key to go from green to red box";
+  }
+
+</script>
+		
+		<script src="gTr.js" type="text/javascript"></script>
+	
+	</body>
+</html>
